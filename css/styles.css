@@ -1,0 +1,18 @@
+.yolomy {
+background-image: url(/home/loise/Desktop/moringa-core-interview-projects/yolomy/images/hero.jpg);
+color: white;
+padding: 10px;
+width: 1500px;
+height: 700px;
+}
+h3, p{
+text-align: center;
+}
+body{
+/*padding: 1px;
+margin: 10px;
+border: 10px;*/
+}
+button{
+display: inline-block;
+}
