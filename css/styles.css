@@ -7,10 +7,20 @@
     height: 700px;
     font-family:comic sans-serif;
     font-size: 20px;
+    text-align: center;
 }
+button{
+float: right;
+background-color: maroon;
+}
+hr{
+height: 40px;
+}
+
 h3, p{
     text-align: center;
 }
+
 body{
     /*padding: 1px;
     margin: 10px;
@@ -18,4 +28,51 @@ body{
 }
 .selection{
     display: block;
+}
+i {
+    border: solid black;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+}
+.men{
+    display: inline;
+}
+
+.right {
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+}
+
+.left {
+    transform: rotate(135deg);
+    -webkit-transform: rotate(135deg);
+}
+.dot1 {
+  height: 15px;
+  width: 15px;
+  background-color: #228B22;
+  border-radius: 50%;
+  display: inline-block;
+}
+.dot2 {
+  height: 15px;
+  width: 15px;
+  background-color: Red;
+  border-radius: 50%;
+  display: inline-block;
+}
+.dot3 {
+  height: 15px;
+  width: 15px;
+  background-color: #BBBB;
+  border-radius: 50%;
+  display: inline-block;
+}
+.dots {
+float: right;
+}
+
+.productimage{
+display: inline-block;
 }
