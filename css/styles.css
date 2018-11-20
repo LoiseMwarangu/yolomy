@@ -1,18 +1,21 @@
 .yolomy {
-background-image: url(/home/loise/Desktop/moringa-core-interview-projects/yolomy/images/hero.jpg);
-color: white;
-padding: 10px;
-width: 1500px;
-height: 700px;
+    background-image: url(/home/loise/Desktop/moringa-core-interview-projects/yolomy/images/hero.jpg);
+    background-size: cover;
+    color: white;
+    padding: 10px;
+    width: auto;
+    height: 700px;
+    font-family:comic sans-serif;
+    font-size: 20px;
 }
 h3, p{
-text-align: center;
+    text-align: center;
 }
 body{
-/*padding: 1px;
-margin: 10px;
-border: 10px;*/
+    /*padding: 1px;
+    margin: 10px;
+    border: 10px;*/
 }
-button{
-display: inline-block;
+.selection{
+    display: block;
 }
