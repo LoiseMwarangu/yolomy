@@ -1,33 +1,42 @@
 .yolomy {
-    background-image: url(/home/loise/Desktop/moringa-core-interview-projects/yolomy/images/hero.jpg);
-    background-size: cover;
-    color: white;
-    padding: 10px;
-    width: auto;
-    height: 700px;
-    font-family:comic sans-serif;
-    font-size: 20px;
-    text-align: center;
+  background-image: url(/home/loise/Desktop/moringa-core-interview-projects/yolomy/images/hero.jpg);
+  background-size: cover;
+  color: white;
+  padding: 10px;
+  width: auto;
+  height: 700px;
+  font-family:comic sans-serif;
+  font-size: 20px;
+  text-align: center;
+}
+h5{
+  display: inline-block;
+  font-family: monospace;
 }
 button{
-float: right;
-background-color: maroon;
-color: white;
-border: 1px;
-margin: 5px;
+  float: right;
+  background-color: maroon;
+  color: white;
+  border: 1px;
+  margin: 5px;
 }
 hr{
-height: 40px;
+  height: 40px;
 }
 
 h3, p{
-    text-align: center;
+  text-align: center;
 }
 
 body{
-    /*padding: 1px;
-    margin: 10px;
-    border: 10px;*/
+ font-family: sans-serif;
+  line-height:10px;
+}
+#conclusion{
+background :dimgrey;
+}
+.promo{
+background: gray;
 }
 .selection{
     display: block;
@@ -35,22 +44,27 @@ body{
 }
 i {
     border: solid black;
-    border-width: 0 3px 3px 0;
-    display: inline-block;
+    border-width: 0 1px 1px 0;
     padding: 3px;
 }
+.arrows{
+    float: right;
+}
+.arrowss{
+    float: left;
+}
 .down {
-    transform: rotate(45deg);
-    -webkit-transform: rotate(45deg);
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
 }
 .size ,i {
   display: inline-block;
 }
 .men{
-    display: inline;
+  display: inline;
 }
 .pic{
-  height:200px;
+  height:300px;
   width: 200px;
 }
 
@@ -58,7 +72,9 @@ i {
     transform: rotate(-45deg);
     -webkit-transform: rotate(-45deg);
 }
-
+.h3{
+    float: right;
+}
 .left {
     transform: rotate(135deg);
     -webkit-transform: rotate(135deg);
@@ -82,7 +98,7 @@ i {
 }
 .product-grid{
   background-color: aliceblue;
-  height: 250px;
+  height: 350px;
   width: 200px;
 
 }
@@ -101,10 +117,10 @@ i {
   display: inline-block;
 }
 .price{
-float: right;
+  float: right;
 }
 .size{
-float: left;
+  float: left;
 }
 .dot3 {
   height: 15px;
@@ -122,4 +138,19 @@ float: left;
 input{
   margin :30px;
   padding:30px;
+}
+.about{
+  background-image: url(/home/loise/Desktop/moringa-core-interview-projects/yolomy/images/about.jpg);
+  color: white;
+}
+.inabout{
+    text-align: center;
+    width: 400px;
+    height:200px;
+    margin-left: auto;
+    margin-right: auto;
+    border:solid beige;
+    padding:40px;
+    padding-bottom: 5px;
+    align-items: center;
 }
